@@ -7,5 +7,9 @@ export interface InfoCommandOptions {
 
 export async function runInfo(slug: string, options: InfoCommandOptions): Promise<void> {
   const result = await fetchRegistryInfo(slug, options.registry);
-  printJson({ schemaVersion: '1', item: result.item });
+  
+  // Strip schemaVersion, author, and tags from the item to save tokens
+  const { schemaVersion, author, tags, ...cleanedItem } = result.item as any;
+  
+  printJson({ item: cleanedItem });
 }

@@ -21,12 +21,18 @@ export async function runSearch(query: string, options: SearchCommandOptions): P
     options.registry
   );
   const raw = result.raw as { registry?: unknown; version?: unknown; pagination?: unknown } | undefined;
+  
+  // Strip schemaVersion, author, and tags from items to save tokens for the agent
+  const cleanedItems = result.items.map((item: any) => {
+    const { schemaVersion, author, tags, ...rest } = item;
+    return rest;
+  });
+
   printJson({
-    schemaVersion: '1',
     query,
     registry: raw?.registry,
     version: raw?.version,
     pagination: raw?.pagination,
-    items: result.items,
+    items: cleanedItems,
   });
 }

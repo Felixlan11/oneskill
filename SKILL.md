@@ -22,12 +22,16 @@ Use this skill to discover new capabilities, refine search queries, and streamli
      - `npx oneskill search "browser" --sort stars`
      - `npx oneskill search "" --category database --limit 5`
 2. Analyze results:
-   - Identify the best match or refine the query and search again.
+   - Pick the best match.
+   - Record BOTH `slug` and `repository`.
+   - Treat `slug` as a registry ID / skill selector label, NOT an OpenSkills install source.
 3. Confirm with the user:
    - Explain what the skill does and where it comes from.
 4. Install after explicit approval (use openskills):
-   - Run: `npx openskills install <slug-or-repo>`
-   - Example: `npx openskills install anthropics/skills`
+   - IMPORTANT: Do NOT pass the registry `slug` into `openskills install`.
+   - Use the `repository` field from `oneskill search` results as the install source:
+     - Run: `npx openskills install <repository>` (e.g., `wshobson/agents`)
+   - If the repo contains many skills, install without `-y` and select ONLY the needed skill(s) in the picker (by skill name/slug).
 5. Handle environment-specific setup:
    - **Gemini CLI Users:** `openskills` does not automatically configure Gemini. You MUST run the mapping command after installation:
      - `npx oneskill map --target gemini` (add `--global` if installed globally)
