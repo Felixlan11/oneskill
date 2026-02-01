@@ -16,8 +16,8 @@ hero:
 features:
   - title: 海量能力库
     details: 瞬间接入社区维护的数千个 Skill（Web浏览、数据库管理、代码审计等）。
-  - title: 一键式安装
-    details: 一个命令，完成下载、依赖处理和环境配置，告别繁琐的手动操作。
-  - title: Gemini 完美适配
-    details: 专为 Gemini CLI 打造的 map 功能，自动将下载的 Skill 注入到 Gemini 的运行路径中。
+  - title: 全平台通用适配
+    details: 基于 OpenSkills 标准，完美支持 Claude Code, Cursor, Windsurf, Aider, Codex 等主流工具。
+  - title: Gemini 专属增强
+    details: 特别为 Gemini CLI 扩展了路径映射支持，使其也能无缝享用这一庞大生态。
 ---

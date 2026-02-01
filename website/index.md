@@ -16,8 +16,8 @@ hero:
 features:
   - title: Massive Skill Library
     details: Instantly connect to thousands of community-maintained skills for web browsing, database management, and more.
-  - title: One-Click Installation
-    details: A single command handles downloading, dependency resolution, and environment configuration automatically.
-  - title: Gemini Optimized
-    details: Specialized 'map' command that automatically injects installed skills into the Gemini CLI context.
+  - title: Universal Compatibility
+    details: Built on OpenSkills, working seamlessly with Claude Code, Cursor, Windsurf, Aider, Codex, and more.
+  - title: Gemini Enhanced
+    details: Includes specialized mapping support for Gemini CLI, enabling it to access the entire skill ecosystem effortlessly.
 ---

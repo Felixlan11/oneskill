@@ -9,5 +9,5 @@ No more manual file downloads or configuration edits. Everything is automated.
 ## Core Value
 
 *   **Massive Skill Library**: Instantly connect to thousands of community-maintained Skills (Web browsing, Database management, Code auditing, Cloud infrastructure ops, etc.).
-*   **One-Click Installation**: A single command handles downloading, dependency resolution, and environment configuration.
-*   **Perfect Gemini Adaptation**: Developed the `map` feature for Gemini CLI, automatically injecting Skills downloaded via OpenSkills into Gemini's path.
+*   **Universal Compatibility**: Built on OpenSkills, working seamlessly with **Claude Code, Cursor, Windsurf, Aider, Codex**, and more.
+*   **Gemini Enhanced**: Includes specialized mapping support for **Gemini CLI**, enabling it to access the entire skill ecosystem effortlessly.

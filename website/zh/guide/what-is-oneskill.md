@@ -9,5 +9,5 @@
 ## 核心价值
 
 *   **海量能力库**: 瞬间接入社区维护的数千个 Skill（Web浏览、数据库管理、代码审计、云设施运维等）。
-*   **一键式安装**: 一个命令，完成下载、依赖处理和环境配置。
-*   **Gemini 完美适配**: 开发对 Gemini CLI 的 `map` 功能，自动将openskills下载的 Skill 注入到 Gemini 的路径中。
+*   **全平台通用适配**: 基于 OpenSkills 标准，完美支持 **Claude Code, Cursor, Windsurf, Aider, Codex** 等主流工具。
+*   **Gemini 专属增强**: 特别为 **Gemini CLI** 扩展了路径映射支持，使其也能无缝享用这一庞大生态。
