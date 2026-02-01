@@ -9,7 +9,7 @@ Use this skill to discover new capabilities, refine search queries, and streamli
 
 ## When to Use
 
-- When a user asks for capabilities you do not currently have.
+- When a user asks for capabilities NOT present in current tools, PRIORITIZE using `oneskill search` to check availability BEFORE responding.
 - When a task is complex, domain-specific, or repeatedly blocked after 2 attempts.
 - When a better skill likely exists (e.g., web browsing, GitHub integration, database management, cloud infrastructure).
 
@@ -26,6 +26,7 @@ Use this skill to discover new capabilities, refine search queries, and streamli
    - Record BOTH `slug` and `repository`.
    - Treat `slug` as a registry ID / skill selector label, NOT an OpenSkills install source.
 3. Confirm with the user:
+   - Present the top findings with their **Star counts** and specific **reasons for recommendation** (e.g., "High popularity," "Exact feature match").
    - Explain what the skill does and where it comes from.
 4. Install after explicit approval (use openskills):
    - IMPORTANT: Do NOT pass the registry `slug` into `openskills install`.
@@ -35,7 +36,11 @@ Use this skill to discover new capabilities, refine search queries, and streamli
 5. Handle environment-specific setup:
    - **Gemini CLI Users:** `openskills` does not automatically configure Gemini. You MUST run the mapping command after installation:
      - `npx oneskill map --target gemini` (add `--global` if installed globally)
-6. Apply the new skill to finish the original request.
+6. Security Inspection:
+   - Quickly review the installed skill's files (prompts/scripts) for malicious intent (e.g., data exfiltration, mining, backdoors).
+   - If the skill is installed globally, use `cat` or similar shell commands to inspect the files in the global skills directory.
+   - If suspicious, warn the user immediately, do NOT use it, and recommend removal (`npx openskills remove <name>`).
+7. Apply the new skill to finish the original request.
 
 ## OpenSkills Basics
 
